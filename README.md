@@ -2,6 +2,10 @@
 
 Vue Router: навигация, параметры, query.
 
+Репозиторий: https://github.com/Arbuzkin/practica31
+
+Демо на GitHub Pages: https://arbuzkin.github.io/practica31/
+
 ## Что сделано
 
 - подключён `vue-router@4` в `src/main.js`;

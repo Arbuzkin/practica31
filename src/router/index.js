@@ -36,7 +36,8 @@ const routes = [
 ]
 
 const router = createRouter({
-  history: createWebHistory(),
+  // BASE_URL учитывает базовый путь при публикации на GitHub Pages
+  history: createWebHistory(import.meta.env.BASE_URL),
   routes
 })
 
